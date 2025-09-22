@@ -1,0 +1,524 @@
+[0m13:27:06.612663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05BCB988>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x064E99E8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x064BD778>]}
+[0m13:27:06.615771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0567E9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x042B8BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x056DF718>]}
+
+
+============================== 13:27:06.621770 | 818454d6-9056-4dba-b5c3-c39806ec91a6 ==============================
+[0m13:27:06.621770 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:27:06.625975 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt ', 'printer_width': '80', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'cache_selected_only': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'debug': 'False', 'log_path': 'd:\\stock-market\\dbt_stocks\\logs', 'log_format': 'default', 'log_cache_events': 'False', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'empty': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+
+
+============================== 13:27:06.624788 | 950542ef-aacc-49ed-a6f4-4f1e56ea2da8 ==============================
+[0m13:27:06.624788 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:27:06.627986 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt ', 'printer_width': '80', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'cache_selected_only': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'debug': 'False', 'log_path': 'd:\\stock-market\\dbt_stocks\\logs', 'log_cache_events': 'False', 'warn_error': 'None', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'empty': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:27:06.974254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '950542ef-aacc-49ed-a6f4-4f1e56ea2da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x067A7F58>]}
+[0m13:27:06.978756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '818454d6-9056-4dba-b5c3-c39806ec91a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x068F3B20>]}
+[0m13:27:07.014161 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:07.017158 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:07.018159 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:07.022159 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:07.022159 [debug] [MainThread]: Command `cli deps` succeeded at 13:27:07.021159 after 0.61 seconds
+[0m13:27:07.025373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0567E9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x067A7F58>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0571AC28>]}
+[0m13:27:07.025373 [debug] [MainThread]: Command `cli deps` succeeded at 13:27:07.025373 after 0.61 seconds
+[0m13:27:07.026365 [debug] [MainThread]: Flushing usage events
+[0m13:27:07.026365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05BCB988>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x068F3B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x049A84C0>]}
+[0m13:27:07.027371 [debug] [MainThread]: Flushing usage events
+[0m13:27:08.353484 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:27:30.609068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05D8B9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05E40C58>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05E2F7C0>]}
+
+
+============================== 13:27:30.614074 | d07e6824-2c40-4308-8f9b-c1ace296dfd2 ==============================
+[0m13:27:30.614074 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:27:30.618075 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt ', 'printer_width': '80', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'version_check': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'debug': 'False', 'log_path': 'd:\\stock-market\\dbt_stocks\\logs', 'log_cache_events': 'False', 'log_format': 'default', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'empty': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:27:30.875658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd07e6824-2c40-4308-8f9b-c1ace296dfd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x04B67508>]}
+[0m13:27:30.903497 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:30.905970 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:30.908055 [debug] [MainThread]: Command `cli deps` succeeded at 13:27:30.908055 after 0.45 seconds
+[0m13:27:30.908055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05D8B9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x06F96FB8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05DD1DD8>]}
+[0m13:27:30.909059 [debug] [MainThread]: Flushing usage events
+[0m13:27:32.833940 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:15:28.396147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E76D3A190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E76D3A0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E76D3A6D0>]}
+
+
+============================== 15:15:28.400511 | 58edbf71-35f9-4eb3-b299-f178c33a6a5c ==============================
+[0m15:15:28.400511 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:15:28.401511 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'D:\\stock-market\\dbt_stocks\\logs', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m15:15:29.073919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '58edbf71-35f9-4eb3-b299-f178c33a6a5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E78CE8CD0>]}
+[0m15:15:29.127936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '58edbf71-35f9-4eb3-b299-f178c33a6a5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E76D98910>]}
+[0m15:15:29.129884 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m15:15:29.998568 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m15:15:30.125564 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m15:15:30.127745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '58edbf71-35f9-4eb3-b299-f178c33a6a5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E764BDC50>]}
+[0m15:15:31.766770 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_stocks.bronze' (models\bronze\bronze.sql) depends on a source named 'raw.bronze_stock_quotes_raw' which was not found
+[0m15:15:31.768610 [debug] [MainThread]: Command `dbt run` failed at 15:15:31.768610 after 3.46 seconds
+[0m15:15:31.768610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E793CD9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E793CE310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E793CE5D0>]}
+[0m15:15:31.769513 [debug] [MainThread]: Flushing usage events
+[0m15:15:32.719292 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:16:18.462149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9792A4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED97987ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED97987A90>]}
+
+
+============================== 15:16:18.466130 | 18e7f952-c516-4779-8db2-f401938786f8 ==============================
+[0m15:16:18.466130 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:16:18.468036 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'quiet': 'False', 'log_path': 'D:\\stock-market\\dbt_stocks\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m15:16:19.060207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED97955A10>]}
+[0m15:16:19.115201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99851250>]}
+[0m15:16:19.116452 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m15:16:19.323460 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m15:16:19.408461 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m15:16:19.410380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED96944690>]}
+[0m15:16:20.599230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99F97A90>]}
+[0m15:16:20.671506 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:16:20.695328 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:16:20.842792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9A018B50>]}
+[0m15:16:20.843783 [info ] [MainThread]: Found 6 models, 4 data tests, 1 source, 479 macros
+[0m15:16:20.844806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99F7D650>]}
+[0m15:16:20.846704 [info ] [MainThread]: 
+[0m15:16:20.847706 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:16:20.848702 [info ] [MainThread]: 
+[0m15:16:20.849700 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:16:20.878700 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET'
+[0m15:16:26.816091 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET"
+[0m15:16:26.817090 [debug] [ThreadPool]: On list_STOCK_MARKET: show terse schemas in database STOCK_MARKET
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET"} */
+[0m15:16:26.817090 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:16:30.218099 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 3.400 seconds
+[0m15:16:30.221004 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET_RAW_DATA'
+[0m15:16:30.235096 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET_RAW_DATA"
+[0m15:16:30.236098 [debug] [ThreadPool]: On list_STOCK_MARKET_RAW_DATA: show objects in STOCK_MARKET.RAW_DATA
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET_RAW_DATA"} */;
+[0m15:16:30.236098 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:16:30.758818 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.523 seconds
+[0m15:16:30.764926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99F640D0>]}
+[0m15:16:30.827285 [debug] [Thread-1 (]: Began running node model.dbt_stocks.bronze
+[0m15:16:30.829291 [info ] [Thread-1 (]: 1 of 6 START sql view model RAW_DATA.bronze .................................... [RUN]
+[0m15:16:30.832291 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_stocks.bronze'
+[0m15:16:30.833373 [debug] [Thread-1 (]: Began compiling node model.dbt_stocks.bronze
+[0m15:16:30.843277 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_stocks.bronze"
+[0m15:16:30.884884 [debug] [Thread-1 (]: Began executing node model.dbt_stocks.bronze
+[0m15:16:30.904974 [debug] [Thread-1 (]: Dropping relation "STOCK_MARKET"."RAW_DATA"."BRONZE" because it is of type table
+[0m15:16:30.909972 [debug] [Thread-1 (]: Applying DROP to: "STOCK_MARKET"."RAW_DATA"."BRONZE"
+[0m15:16:30.915968 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:16:30.916978 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: drop table if exists "STOCK_MARKET"."RAW_DATA"."BRONZE" cascade
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */
+[0m15:16:30.916978 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:16:31.794018 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.877 seconds
+[0m15:16:31.808925 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_stocks.bronze"
+[0m15:16:31.812182 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:16:31.813181 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: create or replace   view STOCK_MARKET.RAW_DATA.bronze
+  
+  
+  
+  
+  as (
+    SELECT
+    v:c::float AS current_price,
+    v:d::float AS change_amount,
+    v:dp::float AS change_percent,
+    v:h::float AS day_high,
+    v:l::float AS day_low,
+    v:o::float AS day_open,
+    v:pc::float AS prev_close,
+    v:t::timestamp AS market_timestamp,
+    v:symbol::string AS symbol,
+    v:fetched_at::timestamp AS fetched_at
+FROM STOCK_MARKET.RAW_DATA.bronze
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */;
+[0m15:16:31.983839 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf37ea-3201-f1c2-0000-001026fec025
+[0m15:16:31.984841 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+[0m15:16:32.022161 [debug] [Thread-1 (]: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:16:32.025065 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99EA7790>]}
+[0m15:16:32.026069 [error] [Thread-1 (]: 1 of 6 ERROR creating sql view model RAW_DATA.bronze ........................... [[31mERROR[0m in 1.19s]
+[0m15:16:32.027086 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.bronze
+[0m15:16:32.028131 [debug] [Thread-1 (]: Began running node model.dbt_stocks.my_first_dbt_model
+[0m15:16:32.028131 [debug] [Thread-4 (]: Marking all children of 'model.dbt_stocks.bronze' to be skipped because of status 'error'.  Reason: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql.
+[0m15:16:32.029088 [info ] [Thread-1 (]: 2 of 6 START sql table model RAW_DATA.my_first_dbt_model ....................... [RUN]
+[0m15:16:32.031067 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_stocks.bronze, now model.dbt_stocks.my_first_dbt_model)
+[0m15:16:32.032079 [debug] [Thread-1 (]: Began compiling node model.dbt_stocks.my_first_dbt_model
+[0m15:16:32.105773 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_stocks.my_first_dbt_model"
+[0m15:16:32.107162 [debug] [Thread-1 (]: Began executing node model.dbt_stocks.my_first_dbt_model
+[0m15:16:32.127170 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_stocks.my_first_dbt_model"
+[0m15:16:32.129171 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.my_first_dbt_model"
+[0m15:16:32.130172 [debug] [Thread-1 (]: On model.dbt_stocks.my_first_dbt_model: create or replace transient table STOCK_MARKET.RAW_DATA.my_first_dbt_model
+    
+    
+    
+    as (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.my_first_dbt_model"} */;
+[0m15:16:33.329578 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.199 seconds
+[0m15:16:33.348560 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99F13990>]}
+[0m15:16:33.349467 [info ] [Thread-1 (]: 2 of 6 OK created sql table model RAW_DATA.my_first_dbt_model .................. [[32mSUCCESS 1[0m in 1.32s]
+[0m15:16:33.350470 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.my_first_dbt_model
+[0m15:16:33.351573 [debug] [Thread-1 (]: Began running node model.dbt_stocks.silver
+[0m15:16:33.353489 [info ] [Thread-1 (]: 3 of 6 SKIP relation RAW_DATA.silver ........................................... [[33mSKIP[0m]
+[0m15:16:33.354633 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.silver
+[0m15:16:33.355641 [debug] [Thread-1 (]: Began running node model.dbt_stocks.my_second_dbt_model
+[0m15:16:33.356715 [info ] [Thread-1 (]: 4 of 6 START sql view model RAW_DATA.my_second_dbt_model ....................... [RUN]
+[0m15:16:33.357681 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_stocks.my_first_dbt_model, now model.dbt_stocks.my_second_dbt_model)
+[0m15:16:33.358641 [debug] [Thread-1 (]: Began compiling node model.dbt_stocks.my_second_dbt_model
+[0m15:16:33.363645 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_stocks.my_second_dbt_model"
+[0m15:16:33.366648 [debug] [Thread-1 (]: Began executing node model.dbt_stocks.my_second_dbt_model
+[0m15:16:33.369727 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_stocks.my_second_dbt_model"
+[0m15:16:33.371648 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.my_second_dbt_model"
+[0m15:16:33.371648 [debug] [Thread-1 (]: On model.dbt_stocks.my_second_dbt_model: create or replace   view STOCK_MARKET.RAW_DATA.my_second_dbt_model
+  
+  
+  
+  
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from STOCK_MARKET.RAW_DATA.my_first_dbt_model
+where id = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.my_second_dbt_model"} */;
+[0m15:16:33.591993 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.219 seconds
+[0m15:16:33.594083 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '18e7f952-c516-4779-8db2-f401938786f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99EAB190>]}
+[0m15:16:33.595069 [info ] [Thread-1 (]: 4 of 6 OK created sql view model RAW_DATA.my_second_dbt_model .................. [[32mSUCCESS 1[0m in 0.24s]
+[0m15:16:33.597242 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.my_second_dbt_model
+[0m15:16:33.597242 [debug] [Thread-1 (]: Began running node model.dbt_stocks.candelstick
+[0m15:16:33.598325 [info ] [Thread-1 (]: 5 of 6 SKIP relation RAW_DATA.candelstick ...................................... [[33mSKIP[0m]
+[0m15:16:33.599241 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.candelstick
+[0m15:16:33.600244 [debug] [Thread-1 (]: Began running node model.dbt_stocks.gold
+[0m15:16:33.600244 [info ] [Thread-1 (]: 6 of 6 SKIP relation RAW_DATA.gold ............................................. [[33mSKIP[0m]
+[0m15:16:33.601484 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.gold
+[0m15:16:33.603492 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:16:33.604491 [debug] [MainThread]: Connection 'list_STOCK_MARKET' was left open.
+[0m15:16:33.604491 [debug] [MainThread]: On list_STOCK_MARKET: Close
+[0m15:16:33.852716 [debug] [MainThread]: Connection 'list_STOCK_MARKET_RAW_DATA' was left open.
+[0m15:16:33.853719 [debug] [MainThread]: On list_STOCK_MARKET_RAW_DATA: Close
+[0m15:16:34.022003 [debug] [MainThread]: Connection 'model.dbt_stocks.my_second_dbt_model' was left open.
+[0m15:16:34.023963 [debug] [MainThread]: On model.dbt_stocks.my_second_dbt_model: Close
+[0m15:16:34.182684 [info ] [MainThread]: 
+[0m15:16:34.184594 [info ] [MainThread]: Finished running 1 table model, 5 view models in 0 hours 0 minutes and 13.33 seconds (13.33s).
+[0m15:16:34.187666 [debug] [MainThread]: Command end result
+[0m15:16:34.210667 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:16:34.213578 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:16:34.220622 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\stock-market\dbt_stocks\target\run_results.json
+[0m15:16:34.220622 [info ] [MainThread]: 
+[0m15:16:34.221579 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m15:16:34.222574 [info ] [MainThread]: 
+[0m15:16:34.223705 [error] [MainThread]: [31mFailure in model bronze (models\bronze\bronze.sql)[0m
+[0m15:16:34.224712 [error] [MainThread]:   Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:16:34.225713 [info ] [MainThread]: 
+[0m15:16:34.225713 [info ] [MainThread]:   compiled code at target\compiled\dbt_stocks\models\bronze\bronze.sql
+[0m15:16:34.226712 [info ] [MainThread]: 
+[0m15:16:34.227710 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=3 NO-OP=0 TOTAL=6
+[0m15:16:34.228453 [debug] [MainThread]: Command `dbt run` failed at 15:16:34.228453 after 15.84 seconds
+[0m15:16:34.229482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED90F23810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED976C85D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED976C8A90>]}
+[0m15:16:34.229482 [debug] [MainThread]: Flushing usage events
+[0m15:16:35.172384 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:36:32.928092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C949A010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C949A850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C949A810>]}
+
+
+============================== 15:36:32.931904 | cc21bfae-17d3-4d4d-8896-f0b4ef406b61 ==============================
+[0m15:36:32.931904 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:36:32.932876 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_path': 'D:\\stock-market\\dbt_stocks\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m15:36:33.622847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cc21bfae-17d3-4d4d-8896-f0b4ef406b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CB55B910>]}
+[0m15:36:33.686269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cc21bfae-17d3-4d4d-8896-f0b4ef406b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CB3C1110>]}
+[0m15:36:33.688731 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m15:36:33.916440 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m15:36:34.072048 [debug] [MainThread]: Partial parsing enabled: 3 files deleted, 0 files added, 1 files changed.
+[0m15:36:34.073053 [debug] [MainThread]: Partial parsing: updated file: dbt_stocks://models\bronze\source.yml
+[0m15:36:34.075133 [debug] [MainThread]: Partial parsing: deleted file: dbt_stocks://models\example\my_second_dbt_model.sql
+[0m15:36:34.076127 [debug] [MainThread]: Partial parsing: deleted file: dbt_stocks://models\example\my_first_dbt_model.sql
+[0m15:36:34.427153 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_stocks.bronze' (models\bronze\bronze.sql) depends on a source named 'raw.bronze' which was not found
+[0m15:36:34.428837 [debug] [MainThread]: Command `dbt run` failed at 15:36:34.428837 after 1.58 seconds
+[0m15:36:34.428837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C92385D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C2A23810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C86190D0>]}
+[0m15:36:34.429838 [debug] [MainThread]: Flushing usage events
+[0m15:36:35.417383 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:37:08.957861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE326AC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE3187690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE32A8550>]}
+
+
+============================== 15:37:08.962800 | 68e139c7-5ff2-4f61-987a-79d5fff60425 ==============================
+[0m15:37:08.962800 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:37:08.963921 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'False', 'printer_width': '80', 'log_path': 'D:\\stock-market\\dbt_stocks\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Hello\\.dbt'}
+[0m15:37:09.937804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE532D890>]}
+[0m15:37:10.013858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE5191150>]}
+[0m15:37:10.015754 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m15:37:10.316621 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m15:37:10.408600 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m15:37:10.410553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE2280610>]}
+[0m15:37:11.993727 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_stocks.example
+[0m15:37:12.005494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE5728790>]}
+[0m15:37:12.152773 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:37:12.156736 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:37:12.193678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE567EF10>]}
+[0m15:37:12.194611 [info ] [MainThread]: Found 4 models, 1 source, 479 macros
+[0m15:37:12.195692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE5870150>]}
+[0m15:37:12.198677 [info ] [MainThread]: 
+[0m15:37:12.199877 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:37:12.200942 [info ] [MainThread]: 
+[0m15:37:12.202629 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:37:12.210852 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET'
+[0m15:37:12.351528 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET"
+[0m15:37:12.352523 [debug] [ThreadPool]: On list_STOCK_MARKET: show terse schemas in database STOCK_MARKET
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET"} */
+[0m15:37:12.353523 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:37:13.206248 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.853 seconds
+[0m15:37:13.210569 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET_RAW_DATA'
+[0m15:37:13.220450 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET_RAW_DATA"
+[0m15:37:13.221468 [debug] [ThreadPool]: On list_STOCK_MARKET_RAW_DATA: show objects in STOCK_MARKET.RAW_DATA
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET_RAW_DATA"} */;
+[0m15:37:13.222138 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:37:13.815896 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.594 seconds
+[0m15:37:13.819089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE5892ED0>]}
+[0m15:37:13.826080 [debug] [Thread-1 (]: Began running node model.dbt_stocks.bronze
+[0m15:37:13.827082 [info ] [Thread-1 (]: 1 of 4 START sql view model RAW_DATA.bronze .................................... [RUN]
+[0m15:37:13.829077 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_stocks.bronze'
+[0m15:37:13.830092 [debug] [Thread-1 (]: Began compiling node model.dbt_stocks.bronze
+[0m15:37:13.846428 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_stocks.bronze"
+[0m15:37:13.847422 [debug] [Thread-1 (]: Began executing node model.dbt_stocks.bronze
+[0m15:37:13.881702 [debug] [Thread-1 (]: Dropping relation "STOCK_MARKET"."RAW_DATA"."BRONZE" because it is of type table
+[0m15:37:13.887709 [debug] [Thread-1 (]: Applying DROP to: "STOCK_MARKET"."RAW_DATA"."BRONZE"
+[0m15:37:13.894706 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:37:13.895698 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: drop table if exists "STOCK_MARKET"."RAW_DATA"."BRONZE" cascade
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */
+[0m15:37:13.896681 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:37:14.699498 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.803 seconds
+[0m15:37:14.713302 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_stocks.bronze"
+[0m15:37:14.714855 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:37:14.714855 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: create or replace   view STOCK_MARKET.RAW_DATA.bronze
+  
+  
+  
+  
+  as (
+    SELECT
+    v:c::float AS current_price,
+    v:d::float AS change_amount,
+    v:dp::float AS change_percent,
+    v:h::float AS day_high,
+    v:l::float AS day_low,
+    v:o::float AS day_open,
+    v:pc::float AS prev_close,
+    v:t::timestamp AS market_timestamp,
+    v:symbol::string AS symbol,
+    v:fetched_at::timestamp AS fetched_at
+FROM STOCK_MARKET.RAW_DATA.bronze
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */;
+[0m15:37:14.847706 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf37ff-3201-f5cc-0000-001026feaf3d
+[0m15:37:14.847706 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+[0m15:37:14.851304 [debug] [Thread-1 (]: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:37:14.853309 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '68e139c7-5ff2-4f61-987a-79d5fff60425', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE6793510>]}
+[0m15:37:14.854311 [error] [Thread-1 (]: 1 of 4 ERROR creating sql view model RAW_DATA.bronze ........................... [[31mERROR[0m in 1.02s]
+[0m15:37:14.855363 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.bronze
+[0m15:37:14.856311 [debug] [Thread-4 (]: Marking all children of 'model.dbt_stocks.bronze' to be skipped because of status 'error'.  Reason: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql.
+[0m15:37:14.859313 [debug] [Thread-1 (]: Began running node model.dbt_stocks.silver
+[0m15:37:14.859313 [info ] [Thread-1 (]: 2 of 4 SKIP relation RAW_DATA.silver ........................................... [[33mSKIP[0m]
+[0m15:37:14.860308 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.silver
+[0m15:37:14.861313 [debug] [Thread-1 (]: Began running node model.dbt_stocks.candelstick
+[0m15:37:14.862313 [info ] [Thread-1 (]: 3 of 4 SKIP relation RAW_DATA.candelstick ...................................... [[33mSKIP[0m]
+[0m15:37:14.863329 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.candelstick
+[0m15:37:14.864340 [debug] [Thread-1 (]: Began running node model.dbt_stocks.gold
+[0m15:37:14.864340 [info ] [Thread-1 (]: 4 of 4 SKIP relation RAW_DATA.gold ............................................. [[33mSKIP[0m]
+[0m15:37:14.865349 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.gold
+[0m15:37:14.867666 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:37:14.868676 [debug] [MainThread]: Connection 'list_STOCK_MARKET' was left open.
+[0m15:37:14.868676 [debug] [MainThread]: On list_STOCK_MARKET: Close
+[0m15:37:15.084655 [debug] [MainThread]: Connection 'list_STOCK_MARKET_RAW_DATA' was left open.
+[0m15:37:15.085658 [debug] [MainThread]: On list_STOCK_MARKET_RAW_DATA: Close
+[0m15:37:15.238803 [debug] [MainThread]: Connection 'model.dbt_stocks.bronze' was left open.
+[0m15:37:15.240942 [debug] [MainThread]: On model.dbt_stocks.bronze: Close
+[0m15:37:15.495380 [info ] [MainThread]: 
+[0m15:37:15.497371 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 3.29 seconds (3.29s).
+[0m15:37:15.498382 [debug] [MainThread]: Command end result
+[0m15:37:15.527148 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:37:15.530658 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:37:15.539450 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\stock-market\dbt_stocks\target\run_results.json
+[0m15:37:15.540454 [info ] [MainThread]: 
+[0m15:37:15.541555 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m15:37:15.543063 [info ] [MainThread]: 
+[0m15:37:15.544072 [error] [MainThread]: [31mFailure in model bronze (models\bronze\bronze.sql)[0m
+[0m15:37:15.545073 [error] [MainThread]:   Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:37:15.546071 [info ] [MainThread]: 
+[0m15:37:15.547071 [info ] [MainThread]:   compiled code at target\compiled\dbt_stocks\models\bronze\bronze.sql
+[0m15:37:15.548069 [info ] [MainThread]: 
+[0m15:37:15.549069 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=3 NO-OP=0 TOTAL=4
+[0m15:37:15.549069 [debug] [MainThread]: Command `dbt run` failed at 15:37:15.549069 after 6.69 seconds
+[0m15:37:15.550566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE32C9D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FE32CAC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029FDC5720D0>]}
+[0m15:37:15.551561 [debug] [MainThread]: Flushing usage events
+[0m15:37:16.474271 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:40:48.325558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F95408390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9540AB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9540A5D0>]}
+
+
+============================== 15:40:48.330586 | 87533308-4f29-4897-b4f5-ec07c795609f ==============================
+[0m15:40:48.330586 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:40:48.332525 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\Hello\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run --select bronze', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'D:\\stock-market\\dbt_stocks\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m15:40:49.066279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F97439690>]}
+[0m15:40:49.140512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F97331250>]}
+[0m15:40:49.143033 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m15:40:49.415197 [debug] [MainThread]: checksum: 5335e1629744fab92fa7809c625edbb36f0d7063a879d6215c971798f27e66f9, vars: {}, profile: , target: , version: 1.10.11
+[0m15:40:49.508746 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m15:40:49.509964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F94B8DD10>]}
+[0m15:40:50.998036 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_stocks.example
+[0m15:40:51.011347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F979026D0>]}
+[0m15:40:51.176609 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:40:51.180486 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:40:51.244222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9787A750>]}
+[0m15:40:51.245788 [info ] [MainThread]: Found 4 models, 1 source, 479 macros
+[0m15:40:51.248318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F97AF28D0>]}
+[0m15:40:51.251851 [info ] [MainThread]: 
+[0m15:40:51.253619 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:40:51.257820 [info ] [MainThread]: 
+[0m15:40:51.259909 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:40:51.264522 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET'
+[0m15:40:51.506013 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET"
+[0m15:40:51.508546 [debug] [ThreadPool]: On list_STOCK_MARKET: show terse schemas in database STOCK_MARKET
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET"} */
+[0m15:40:51.509544 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:40:52.320589 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.811 seconds
+[0m15:40:52.327602 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_STOCK_MARKET_RAW_DATA'
+[0m15:40:52.339608 [debug] [ThreadPool]: Using snowflake connection "list_STOCK_MARKET_RAW_DATA"
+[0m15:40:52.341061 [debug] [ThreadPool]: On list_STOCK_MARKET_RAW_DATA: show objects in STOCK_MARKET.RAW_DATA
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "connection_name": "list_STOCK_MARKET_RAW_DATA"} */;
+[0m15:40:52.341061 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:40:52.905150 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.563 seconds
+[0m15:40:52.911622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F97A45710>]}
+[0m15:40:52.917146 [debug] [Thread-1 (]: Began running node model.dbt_stocks.bronze
+[0m15:40:52.918729 [info ] [Thread-1 (]: 1 of 1 START sql view model RAW_DATA.bronze .................................... [RUN]
+[0m15:40:52.919832 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_stocks.bronze'
+[0m15:40:52.920364 [debug] [Thread-1 (]: Began compiling node model.dbt_stocks.bronze
+[0m15:40:52.930514 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_stocks.bronze"
+[0m15:40:52.931467 [debug] [Thread-1 (]: Began executing node model.dbt_stocks.bronze
+[0m15:40:52.951467 [debug] [Thread-1 (]: Dropping relation "STOCK_MARKET"."RAW_DATA"."BRONZE" because it is of type table
+[0m15:40:52.959553 [debug] [Thread-1 (]: Applying DROP to: "STOCK_MARKET"."RAW_DATA"."BRONZE"
+[0m15:40:52.965537 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:40:52.966563 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: drop table if exists "STOCK_MARKET"."RAW_DATA"."BRONZE" cascade
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */
+[0m15:40:52.967510 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:40:53.602363 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.635 seconds
+[0m15:40:53.618386 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_stocks.bronze"
+[0m15:40:53.620385 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_stocks.bronze"
+[0m15:40:53.620385 [debug] [Thread-1 (]: On model.dbt_stocks.bronze: create or replace   view STOCK_MARKET.RAW_DATA.bronze
+  
+  
+  
+  
+  as (
+    
+SELECT
+    v:c::float AS current_price,
+    v:d::float AS change_amount,
+    v:dp::float AS change_percent,
+    v:h::float AS day_high,
+    v:l::float AS day_low,
+    v:o::float AS day_open,
+    v:pc::float AS prev_close,
+    v:t::timestamp AS market_timestamp,
+    v:symbol::string AS symbol,
+    v:fetched_at::timestamp AS fetched_at
+FROM STOCK_MARKET.RAW_DATA.bronze
+  )
+/* {"app": "dbt", "dbt_version": "1.10.11", "profile_name": "dbt_stocks", "target_name": "dev", "node_id": "model.dbt_stocks.bronze"} */;
+[0m15:40:53.742364 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf3802-3201-f1db-0000-001026fe4f1d
+[0m15:40:53.743359 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+[0m15:40:53.746733 [debug] [Thread-1 (]: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:40:53.750242 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '87533308-4f29-4897-b4f5-ec07c795609f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F97517D10>]}
+[0m15:40:53.751257 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model RAW_DATA.bronze ........................... [[31mERROR[0m in 0.83s]
+[0m15:40:53.752257 [debug] [Thread-1 (]: Finished running node model.dbt_stocks.bronze
+[0m15:40:53.753253 [debug] [Thread-4 (]: Marking all children of 'model.dbt_stocks.bronze' to be skipped because of status 'error'.  Reason: Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql.
+[0m15:40:53.756260 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:40:53.758269 [debug] [MainThread]: Connection 'list_STOCK_MARKET' was left open.
+[0m15:40:53.759162 [debug] [MainThread]: On list_STOCK_MARKET: Close
+[0m15:40:53.926699 [debug] [MainThread]: Connection 'list_STOCK_MARKET_RAW_DATA' was left open.
+[0m15:40:53.927678 [debug] [MainThread]: On list_STOCK_MARKET_RAW_DATA: Close
+[0m15:40:54.135584 [debug] [MainThread]: Connection 'model.dbt_stocks.bronze' was left open.
+[0m15:40:54.136596 [debug] [MainThread]: On model.dbt_stocks.bronze: Close
+[0m15:40:54.310200 [info ] [MainThread]: 
+[0m15:40:54.312197 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.05 seconds (3.05s).
+[0m15:40:54.313198 [debug] [MainThread]: Command end result
+[0m15:40:54.343715 [debug] [MainThread]: Wrote artifact WritableManifest to D:\stock-market\dbt_stocks\target\manifest.json
+[0m15:40:54.347713 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\stock-market\dbt_stocks\target\semantic_manifest.json
+[0m15:40:54.355715 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\stock-market\dbt_stocks\target\run_results.json
+[0m15:40:54.357721 [info ] [MainThread]: 
+[0m15:40:54.358720 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m15:40:54.360716 [info ] [MainThread]: 
+[0m15:40:54.361720 [error] [MainThread]: [31mFailure in model bronze (models\bronze\bronze.sql)[0m
+[0m15:40:54.362719 [error] [MainThread]:   Database Error in model bronze (models\bronze\bronze.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'STOCK_MARKET.RAW_DATA.BRONZE' does not exist or not authorized.
+  compiled code at target\run\dbt_stocks\models\bronze\bronze.sql
+[0m15:40:54.363714 [info ] [MainThread]: 
+[0m15:40:54.365091 [info ] [MainThread]:   compiled code at target\compiled\dbt_stocks\models\bronze\bronze.sql
+[0m15:40:54.366714 [info ] [MainThread]: 
+[0m15:40:54.367714 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m15:40:54.368723 [debug] [MainThread]: Command `dbt run` failed at 15:40:54.368723 after 6.14 seconds
+[0m15:40:54.370234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F954676D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9785DB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9544B150>]}
+[0m15:40:54.370234 [debug] [MainThread]: Flushing usage events
+[0m15:40:55.305780 [debug] [MainThread]: An error was encountered while trying to flush usage events
